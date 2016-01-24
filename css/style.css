@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+#introWelcome {
+  background: url("http://s17.postimg.org/bs6n7sq0v/wallpaper1.jpg") center fixed;
+  height: 850px;
+  background-size: cover;
+}
+
+.navbar-default{
+  background-color:#343436;
+  border:none;
+}
+
+#headTitle a{
+ color:white;
+  font-family:monospace;
+  font-size:24px;
+  margin-top:5px
+
+}
+
+#navBarList li a{
+  color:white;
+  font-family:monospace;
+  font-size:20px;
+  margin-top:5px;
+}
+
+#navBarList li a:hover{
+background-color: #00897B;
+  border-radius:5px;
+}
+
+.profile {
+  display: block;
+  width: 100%;
+/*   box-shadow: 1px 1px 20px black; */
+  padding-top: 20px;
+/*   background: rgba(44, 44, 44, .5); */
+  border-radius: 5px;
+/*   border: 1px solid rgba(0,0,0,.2); */
+   margin-top:130px;
+  height:250px;
+}
+
+.profile h1{
+  color:white;
+  font-family:Lobster; 
+}
+
+.profile h6{
+  color:white;
+  font-family:monospace;
+  
+}
+
+.profile-box {
+  max-width: 760px;
+  margin-bottom: 30px;
+  z-index: 0;
+}
+
+h1{
+  font-size:50px;
+}
+
+h6{
+  font-size:30px;
+}
+
+.side-contact {
+  position: fixed;
+  top: 65%;
+  left: -40px;
+}
+
+.side-contact img {
+  border-top-right-radius: 30%;
+  border-bottom-right-radius: 30%;
+  width: 40px;
+}
+
+#portfolio{
+background: url("http://s14.postimg.org/mhye2rof5/blackterminal.png") center fixed;
+  height: auto;
+  background-size: cover;
+}
+
+#portfolio h1{
+  font-family:monospace;
+  color:white;
+  font-size:40px;
+  margin-top:50px;
+  margin-bottom:60px;
+}
+
+#portfolio a{
+  text-decoration:none;
+  font-family:monospace;
+  font-weight:bold;
+   
+}
+
+#portfolio a:hover{
+  background-color: #00897B;
+}
+
+.caption:hover{
+  color:black;
+}
+
+.contact-buttons {
+  width: 150px ;
+  height: 50px;
+  color: black;
+  margin-top: 50px;
+  margin-left: 6px;
+  background: #E0E0E0;
+  border: none;
+  padding-top:14px;
+   font-family:monospace;
+  padding-right:20px;
+}
+
+.btn-default:hover {
+  background-color: #00897B;
+  color:white;
+  font-weight:bold;
+  font-family:monospace;
+}
+
+
+#about{
+background:url("http://s12.postimg.org/ggvjxbbkd/code.jpg") center fixed;
+  color:white;
+  height:auto;
+  font-family:monospace;
+  background-size:cover;
+}
+#about img{
+  margin-top:30px;
+  width:150px;
+  height:150px;
+}
